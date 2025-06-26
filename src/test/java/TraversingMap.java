@@ -14,6 +14,8 @@ public class TraversingMap {
             List<WebElement> metaDataList =  waitForVisibilityOfElements(PRODUCT_META_DATA_LOCATOR,AppConstants.MEDIUM_DEFAULT_WAIT);
             System.out.println(metaDataList);
 
+
+
         }
 
         public List<WebElement> waitForVisibilityOfElements(By locator, int timeOut) {
