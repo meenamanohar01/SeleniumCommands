@@ -12,7 +12,7 @@ public class ImplicitWaitExample {
     public static void main(String[] args) {
 
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // Set implicit wait
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // Set implicit wait.
         driver.get("https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose");
 
         // Any findElement call will wait up to 10 seconds if the element is not immediately available
